@@ -1,4 +1,9 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<cmath>
+#include<vector>
+#include<map>
+#include<algorithm>
+#include<utility>
 using namespace std;
 
 vector<pair<double,double> > obstacle_gen(int n)//Function to input obstacles
