@@ -7,4 +7,16 @@ Enter the start coordinates, goal coordinates, number of obstacles, number of no
 "Enter number of obstacles"\
 "Enter number of nodes"\
 "Enter obstacle coordinates"\
-The output will be whether a path is found or not. If a path is found, then the coordinates are printed.
+The output will be whether a path is found or not. If a path is found, then the coordinates are printed.\
+
+#RRT_using_headers
+Each function prototype is written in a separate .h file \
+Each function definition is written in separate .cpp file \
+They are compiled into objective files (.o files) \
+For eg:\
+To compile "add_edge.cpp:" g++ -c add_edge.cpp -std=c++11 \
+This is done for all the .cpp files.\
+To compile and link all objective files into one executable file:\
+g++ -o final.exe * .o -std=c++11 \
+To run the program: .\final.exe
+
