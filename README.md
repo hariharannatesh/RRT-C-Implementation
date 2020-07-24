@@ -9,7 +9,7 @@ Enter the start coordinates, goal coordinates, number of obstacles, number of no
 "Enter obstacle coordinates"\
 The output will be whether a path is found or not. If a path is found, then the coordinates are printed.\
 
-# RRT-using-headers \\
+# RRT-using-headers
 Each function prototype is written in a separate .h file \
 Each function definition is written in separate .cpp file \
 They are compiled into objective files (.o files) \
@@ -20,8 +20,8 @@ To compile and link all objective files into one executable file:\
 g++ -o final.exe * .o -std=c++11 \
 To run the program: .\final.exe \
 
-# RRT-OOPS \\
+# RRT-OOPS 
 To generate objective files: g++ -c * .cpp -std=c++11 \
-To generate executable file: g++ -o output.exe * .o -std=c++11 \
-To run the program: .\output.exe \\      
+To generate executable file: g++ -o output.exe * .o -std=c++11 <br>
+To run the program: .\output.exe <br>       
 
